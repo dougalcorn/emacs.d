@@ -1,18 +1,18 @@
-(require 'tls)
-(require 'erc)
-(require 'erc-image)
-(setq my-erc-identities '("doug@gaslight.co"))
-(setq my-erc-flowdock-nickname "@doug")
+;;(require 'tls)
+;;(require 'erc)
+;;(require 'erc-image)
+;;(setq my-erc-identities '("doug@gaslight.co"))
+;;(setq my-erc-flowdock-nickname "@doug")
 
 ;; (setq erc-current-nick-highlight-type 'nick)
-(setq erc-keywords '(my-erc-flowdock-nickname "@all" "@everyone"))
+;;(setq erc-keywords '(my-erc-flowdock-nickname "@all" "@everyone"))
 ;; (setq erc-track-use-faces t)
 ;; (setq erc-track-faces-priority-list
 ;;       '(erc-current-nick-face erc-keyword-face))
 ;; (setq erc-track-priority-faces-only 'all)
 
-(setq erc-replace-alist
-      '(("\\[Email\\] .*?: " . "")))
+;;(setq erc-replace-alist
+;;      '(("\\[Email\\] .*?: " . "")))
 
 ;; (defcustom flowdock-ignore-list '("\\[Email\\] Show in Flowdock:.*")
 ;;   "List of regular expressions to ignore in notices"

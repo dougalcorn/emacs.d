@@ -44,8 +44,8 @@
 
 (add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode))
 
-(add-to-list 'load-path "/Users/dalcorn/.emacs.d/elpa/ecb-alexott")
-(require 'ecb)
+;; (add-to-list 'load-path "/Users/dalcorn/.emacs.d/elpa/ecb-alexott")
+;; (require 'ecb)
 
 (require 'mmm-auto)
 (setq mmm-global-mode 'auto)
